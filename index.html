@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <!-- google analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141900592-1"></script>
+
     <!-- bootstrap CSS styles from bootswatch.com -->
     <link rel="stylesheet" href="https://bootswatch.com/4/superhero/bootstrap.min.css">
 
@@ -42,10 +45,9 @@
 
     <div class='container about'>
         <h2>About</h2>
-        <hr>
         <p>I have PhD in infrared monitoring from space and am currently developing a free
-            webapp to find, forecast and assess wildfires (link with UTM).
-            Please share this page and follow on social media.</p>
+            <a target="_blank" rel="noopener noreferrer" href="http://bit.ly/2KRjQfs" alt='webapp link'>webapp</a>
+             to find, forecast and assess wildfires. Please share this page and follow on social media.</p>
     </div>
     <div class="container social">
         <div class="nested">
@@ -61,7 +63,15 @@
         </div>
     </footer>
 
+    <script>
+    window.dataLayer = window.dataLayer || [];
 
+        function gtag() { dataLayer.push(arguments); }
+
+        gtag('js', new Date());
+        gtag('config', 'UA-141900592-1');
+
+    </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
